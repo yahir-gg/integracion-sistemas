@@ -1,0 +1,20 @@
+<abarrotes>
+    <producto>
+        <nombre>Cereal</nombre>
+        <marca>Kellogs</marca>
+        <descripcion>Corn Flakes es el cereal ideal para complementar tu desayuno</descripcion>
+        <precio>44</precio>
+    </producto>
+    <producto>
+        <nombre>Sopa instantanea</nombre>
+        <marca>Maruchan</marca>
+        <descripcion>Maruchan trae para ti la sopa que se hace en tres minutos</descripcion>
+        <precio>11</precio>
+    </producto>
+    <producto>
+        <nombre>Pan dulce Bimbo</nombre>
+        <marca>Bimbo</marca>
+        <descripcion>Para ese antojo de pan dulce, prueba Bimbolunch, un multipack de pan dulce Bimbo</descripcion>
+        <precio>40</precio>
+    </producto>
+<producto><nombre>cel</nombre><marca>redmi</marca><descripcion>note</descripcion><precio>10</precio></producto></abarrotes>
