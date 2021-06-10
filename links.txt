@@ -1,0 +1,4 @@
+https://docs.python.org/3/library/xml.etree.elementtree.html
+https://www.datacamp.com/community/tutorials/python-xml-elementtree
+https://www.edureka.co/blog/python-xml-parser-tutorial/
+https://www.youtube.com/watch?v=r6dyk68gymk&t=1070s
