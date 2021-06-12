@@ -23,4 +23,4 @@
         <descripcion>note</descripcion>
         <precio>10</precio>
     </producto>
-<producto id="5"><nombre>laptop</nombre><marca>hp</marca><descripcion>hace cosas</descripcion><precio>123</precio></producto><producto id="6"><nombre>audifonos</nombre><marca>atvio</marca><descripcion>escucha musica</descripcion><precio>123</precio></producto></abarrotes>
+<producto id="5"><nombre>laptop</nombre><marca>hp</marca><descripcion>hace cosas</descripcion><precio>123</precio></producto><producto id="6"><nombre>audifonos</nombre><marca>atvio</marca><descripcion>escucha musica</descripcion><precio>123</precio></producto><producto id="7"><nombre>pluma</nombre><marca>bic</marca><descripcion>tinta azul</descripcion><precio>11</precio></producto></abarrotes>
