@@ -70,6 +70,26 @@ class HelloWorldService(ServiceBase):
         else:
             msj = "Archivo XML invalido. No se agrego el producto"
             return msj
+    @srpc(Unicode,Unicode,Unicode,Unicode,Unicode,_returns= Iterable(Unicode))
+    def modify(uno,dos,tres,cuatro,id):
+        data=[]
+        data.append(uno)
+        data.append(dos)
+        data.append(tres)
+        data.append(cuatro)
+
+        tree = ET.parse('productos.xml')
+        root = tree.getroot()
+        pen = root.find(".//producto[@id='"+id+"']")
+        hijos = pen.getchildren()
+        xml_lt=[]
+        xml_str=""
+        cont=0
+        for e in hijos:
+              e.text = data[cont]
+              cont=cont+1
+        tree.write("./productos_tmp.xml")
+        return "Modifcacion exitosa"
 
     @srpc(Unicode, _returns= Iterable(Unicode))
     def consultar_pd(id_consultar):
