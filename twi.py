@@ -88,7 +88,7 @@ class HelloWorldService(ServiceBase):
         for e in hijos:
               e.text = data[cont]
               cont=cont+1
-        tree.write("./productos_tmp.xml")
+        tree.write("./productos.xml")
         return "Modifcacion exitosa"
 
     @srpc(Unicode, _returns= Iterable(Unicode))

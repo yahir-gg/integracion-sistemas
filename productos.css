@@ -1,0 +1,27 @@
+Abarrotes{
+    display:table;
+    font-size:14px;
+    margin:8px;
+    font-family: Verdana;
+    width: 100%;
+}
+
+Abarrotess,producto{
+    display: table-row-group;
+    text-align:left;
+    border: 1px solid silver;
+    padding:10px;
+    background-color:whitesmoke;
+}
+
+
+nombre,marca,descripcion,precio{
+    display: table-cell;
+    border: solid 1px;
+}
+
+banner{  
+  text-align: center;
+  width: 100%;
+color: aquamarine;
+}
